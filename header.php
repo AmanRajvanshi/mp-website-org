@@ -3,7 +3,7 @@
     <!-- MOBILE HEADER -->
     <div class="wsmobileheader clearfix">
       <span class="smllogo">
-        <a href="./">
+        <a href="/index.php">
           <img src="logos/Asset 3112.png" alt="mobile-logo" />
         </a>
       </span>
@@ -14,7 +14,7 @@
       <div class="wsmainwp clearfix">
         <!-- HEADER LOGO -->
         <div class="desktoplogo">
-          <a href="./">
+          <a href="/index.php">
             <img src="logos/Asset 3112.png" alt="header-logo">
           </a>
         </div>

@@ -15,9 +15,13 @@
       transform: scale(1.07);
     }
 
-    @media only screen and (max-width:600px){
-      .img-id{
-        width:50%;
+    .img-id {
+      width: 90%;
+    }
+
+    @media only screen and (max-width:600px) {
+      .img-id {
+        width: 50%;
       }
     }
   </style>

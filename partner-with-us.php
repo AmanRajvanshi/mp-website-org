@@ -6,11 +6,10 @@
   <title>Market Pluss - Market In Your Hands</title>
   <style>
     .join-us {
-      padding-top: 50px;
-      padding-bottom: 40px;
-      margin: 30px aotu;
+      margin:30px auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
       background-color: #F7F7F7;
-      max-width: 85%;
     }
 
     .join-us-col {
@@ -19,9 +18,21 @@
       padding: 10px;
     }
 
-    @media only screen and (max-width:1400px){
-      .animation-three{
-        width:49%;
+    .svg {
+      width: 70%;
+      opacity: 0.9;
+      transition: transform .5s;
+    }
+
+    .svg:hover {
+      -ms-transform: scale(1.07);
+      -webkit-transform: scale(1.07);
+      transform: scale(1.07);
+    }
+
+    @media only screen and (max-width:600px) {
+      .svg {
+        width: 50%;
       }
     }
   </style>
@@ -67,34 +78,36 @@
       <!-- End container -->
     </div>
     <!-- END PAGE HERO -->
-    <div class="container join-us">
-      <div class="row">
-        <div class="col-md-2 join-us-col">
-          <img src="img/svg/user.svg" style="width:70%;opacity:0.9">
-          <h5 style="margin:30px 0 0 0">User Friendly</h5>
-        </div>
-        <div class="col-md-2 join-us-col">
-          <img src="img/svg/choices.svg" style="width:70%;opacity:0.9">
-          <h5 style="margin:30px 0 0 0">Exciting Choices</h5>
-        </div>
-        <div class="col-md-2 join-us-col">
-          <img src="img/svg/categories.svg" style="width:70%;opacity:0.9">
-          <h5 style="margin:30px 0 0 0">Unlimited Categories</h5>
-        </div>
-        <div class="col-md-2 join-us-col">
-          <img src="img/svg/satisfaction.svg" style="width:70%;opacity:0.9">
-          <h5 style="margin:30px 0 0 0">Customer Delight</h5>
-        </div>
-        <div class="col-md-2 join-us-col">
-          <img src="img/svg/offers.svg" style="width:70%;opacity:0.9">
-          <h5 style="margin:30px 0 0 0">Finest Deals & Offers</h5>
-        </div>
-        <div class="col-md-2 join-us-col">
-          <img src="img/svg/alternatives.svg" style="width:70%;opacity:0.9">
-          <h5 style="margin:30px 0 0 0">Better Alternatives</h5>
+    <section class="join-us">
+      <div class="container join-us">
+        <div class="row">
+          <div class="col-md-2 join-us-col">
+            <img class="svg" src="img/svg/user.svg" style="width:70%;opacity:0.9">
+            <h6 style="margin:30px 0 0 0">User Friendly</h6>
+          </div>
+          <div class="col-md-2 join-us-col">
+            <img class="svg" src="img/svg/choices.svg" style="width:70%;opacity:0.9">
+            <h6 style="margin:30px 0 0 0">Exciting Choices</h6>
+          </div>
+          <div class="col-md-2 join-us-col">
+            <img class="svg" src="img/svg/categories.svg" style="width:70%;opacity:0.9">
+            <h6 style="margin:30px 0 0 0">Unlimited Categories</h6>
+          </div>
+          <div class="col-md-2 join-us-col">
+            <img class="svg" src="img/svg/satisfaction.svg" style="width:70%;opacity:0.9">
+            <h6 style="margin:30px 0 0 0">Customer Delight</h6>
+          </div>
+          <div class="col-md-2 join-us-col">
+            <img class="svg" src="img/svg/offers.svg" style="width:70%;opacity:0.9">
+            <h6 style="margin:30px 0 0 0">Finest Deals & Offers</h6>
+          </div>
+          <div class="col-md-2 join-us-col">
+            <img class="svg" src="img/svg/alternatives.svg" style="width:70%;opacity:0.9">
+            <h6 style="margin:30px 0 0 0">Better Alternatives</h6>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ABOUT-2
         ============================================= -->
     <div id="about-2" class="wide-90 about-section division" style="padding-top:80px;">
