@@ -6,7 +6,7 @@
   <title>Market Pluss - Market In Your Hands</title>
   <style>
     .join-us {
-      margin:30px auto;
+      margin: 30px auto;
       padding-top: 10px;
       padding-bottom: 10px;
       background-color: #F7F7F7;

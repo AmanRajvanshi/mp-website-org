@@ -21,7 +21,7 @@
   <div id="page" class="page">
     <!-- HEADER
         ============================================= -->
-        <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
     <!-- END HEADER -->
     <!-- PAGE HERO
         ============================================= -->
@@ -52,14 +52,28 @@
         <!-- TERMS BOX -->
         <!-- List -->
         <ul class="simple-list">
-          <li class="list-item"><p class="p-lg">Market Pluss shows discounts & offers on various products which one can redeem from the shops.</p></li>
-          <li class="list-item"><p class="p-lg">You must provide your full legal name,  Mobile number, and any other information needed in while the registration process.</p></li>
-          <li class="list-item"><p class="p-lg">You are responsible for keeping your password secure. Market  Pluss cannot and will not be liable for any loss or damage from your failure to maintain the security of your account and password.</p></li>
-          <li class="list-item"><p class="p-lg">You may not use the Market Pluss service for any illegal or unauthorized purpose, violate any laws in your jurisdiction (including but not limited to copyright laws) as well as the laws of the court of India.</p></li>
-          <li class="list-item"><p class="p-lg">You are responsible for all activity and content you provide to Market Pluss.</p></li>
-          <li class="list-item"><p class="p-lg">You must not insert any worms or viruses or any code of a destructive nature intentionally.</p></li>
-          <li class="list-item"><p class="p-lg">A breach or violation of any of the Account Terms as determined in the sole discretion of Market Pluss will result in an immediate termination of your services.</p></li>
-        </ul> 
+          <li class="list-item">
+            <p class="p-lg">Market Pluss shows discounts & offers on various products which one can redeem from the shops.</p>
+          </li>
+          <li class="list-item">
+            <p class="p-lg">You must provide your full legal name, Mobile number, and any other information needed in while the registration process.</p>
+          </li>
+          <li class="list-item">
+            <p class="p-lg">You are responsible for keeping your password secure. Market Pluss cannot and will not be liable for any loss or damage from your failure to maintain the security of your account and password.</p>
+          </li>
+          <li class="list-item">
+            <p class="p-lg">You may not use the Market Pluss service for any illegal or unauthorized purpose, violate any laws in your jurisdiction (including but not limited to copyright laws) as well as the laws of the court of India.</p>
+          </li>
+          <li class="list-item">
+            <p class="p-lg">You are responsible for all activity and content you provide to Market Pluss.</p>
+          </li>
+          <li class="list-item">
+            <p class="p-lg">You must not insert any worms or viruses or any code of a destructive nature intentionally.</p>
+          </li>
+          <li class="list-item">
+            <p class="p-lg">A breach or violation of any of the Account Terms as determined in the sole discretion of Market Pluss will result in an immediate termination of your services.</p>
+          </li>
+        </ul>
         <!-- END TERMS BOX -->
         <!-- TERMS BOX -->
         <div class="terms-box">
@@ -93,7 +107,7 @@
     </div>
     <!-- FOOTER-2
         ============================================= -->
-        <?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
     <!-- END FOOTER-2 -->
   </div>
   <!-- END PAGE CONTENT -->
