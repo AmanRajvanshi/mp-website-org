@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+  <g>
+    <path xmlns="http://www.w3.org/2000/svg" d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0" fill="#4f1dff" data-original="#4a5f7c" style="" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m512 256c0-4.929688-.152344-9.820312-.429688-14.679688l-71.820312-71.820312-319 71.5 100.738281 100.738281-97.238281 72.261719 95.421875 95.421875c11.867187 1.6875 23.992187 2.578125 36.328125 2.578125 141.386719 0 256-114.613281 256-256zm0 0" fill="#2a05a9" data-original="#2f4056" style="" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m369.75 241h-249v-143h249l70 71.5zm0 0" fill="#ff5050" data-original="#ff5050" style=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m120.75 169.167969v71.832031h249l70-71.5-.324219-.332031zm0 0" fill="#ea3b3b" data-original="#ea3b3b" style=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m124.25 271h249v143h-249l-70-71.5zm0 0" fill="#24d8d7" data-original="#24d8d7" style=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m54.738281 343 69.511719 71h249v-71zm0 0" fill="#17c6c1" data-original="#17c6c1" style=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m160 390.214844-44.605469-44.609375 21.210938-21.210938 23.394531 23.390625 58.894531-58.890625 21.210938 21.210938zm0 0" fill="#ffffff" data-original="#ffffff" style=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m164.785156 343-4.785156 4.785156-4.785156-4.785156h-37.214844l-2.605469 2.605469 44.605469 44.609375 47.214844-47.214844zm0 0" fill="#e9edf5" data-original="#e9edf5" style="" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="m363.605469 145.855469-21.210938-21.210938-23.644531 23.640625-23.644531-23.640625-21.210938 21.210938 23.640625 23.644531-23.640625 23.644531 21.210938 21.210938 23.644531-23.640625 23.644531 23.640625 21.210938-21.210938-23.640625-23.644531zm0 0" fill="#ffffff" data-original="#ffffff" style=""/>
+    <g xmlns="http://www.w3.org/2000/svg" fill="#e9edf5">
+      <path d="m297.871094 169.167969-23.976563 23.976562 21.210938 21.210938 45.191406-45.1875zm0 0" fill="#e9edf5" data-original="#e9edf5" style="" class=""/>
+      <path d="m297.203125 169.167969 45.191406 45.1875 21.210938-21.210938-23.976563-23.976562zm0 0" fill="#e9edf5" data-original="#e9edf5" style="" class=""/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+  <g>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="256" cy="256" r="256" fill="#4f1dff" data-original="#ffdc00" class=""/>
+<path xmlns="http://www.w3.org/2000/svg" style="" d="M512,256c0-4.746-0.139-9.458-0.394-14.14L355.377,85.632l-28.301-1.313L256,13.43l-61.419,189.027  l34.589,34.589L120.5,238.5l-2.839,63L64.5,412.57l67.337,67.337C168.613,500.344,210.943,512,256,512  C397.385,512,512,397.385,512,256z" fill="#2a02b9" data-original="#ffc000" class=""/>
+<polygon xmlns="http://www.w3.org/2000/svg" style="" points="267.5,224.609 267.5,128.381 244.5,128.381 244.5,224.609 106.161,224.609 106.161,355.431   129.161,355.431 129.161,247.609 382.839,247.609 382.839,355.431 405.839,355.431 405.839,224.609 " fill="#ff6838" data-original="#ff6838" class=""/>
+<polygon xmlns="http://www.w3.org/2000/svg" style="" points="267.5,224.609 267.5,128.381 256,128.381 256,247.609 382.839,247.609 382.839,355.431   405.839,355.431 405.839,224.609 " fill="#ae4e32" data-original="#ae4e32" class=""/>
+<rect xmlns="http://www.w3.org/2000/svg" x="64.5" y="306.25" style="" width="106.32" height="106.32" fill="#1cbfff" data-original="#008cc3" class=""/>
+<g xmlns="http://www.w3.org/2000/svg">
+	<rect x="341.18" y="306.25" style="" width="106.32" height="106.32" fill="#02a5e7" data-original="#0074a3" class=""/>
+	<polygon style="" points="256,13.43 286.709,75.654 355.377,85.632 305.689,134.066 317.419,202.457 256,170.167    194.581,202.457 206.311,134.066 156.623,85.632 225.291,75.654  " fill="#02a5e7" data-original="#0074a3" class=""/>
+</g>
+<polygon xmlns="http://www.w3.org/2000/svg" style="" points="355.377,85.632 286.709,75.654 256,13.43 256,170.167 317.419,202.457 305.689,134.066 " fill="#2e88ad" data-original="#005c83" class=""/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+</svg>
