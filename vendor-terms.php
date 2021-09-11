@@ -34,9 +34,9 @@
               <!-- Title -->
               <h1 class="h2-md">frequently Bugged about</h1>
               <!-- Text -->
-              <p class="p-xl" style="color:#5d5d5d">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero
+              <!-- <p class="p-xl" style="color:#5d5d5d">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero
                 tempus, blandit and cursus varius magna
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
           <p class="p-lg">We reserve the right to refuse service to anyone for any reason at any time. Your use of the Service is at your sole risk. The Service is provided on an “as is “and “as available “basis without any guarantee, express implied, or statutory. You understand that your content (not including credit card information), may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to the technical requirements of connecting networks or devices.</p>
           <p class="p-lg">You expressly understand and agree that Market Pluss shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses resulting from the use of or inability to use the service.</p>
           <p class="p-lg">In no event shall Market Pluss or our suppliers be liable for lost profits or any special, incidental, or consequential damages arising out of or in connection with our site, our services, or this agreement (however arising including negligence). You agree to indemnify and hold us and (as applicable) our parent, subsidiaries, affiliates, Market Pluss partners, officers, directors, agents, and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third party due to or arising out of your breach of this Agreement or the documents it incorporates by reference or your violation of any law or the rights of a third party.</p>
-          <p class="p-lg">Technical support is only provided to the ones who pay to maintain their account and is only available via email and if agreed upon earlier via phone.</p>
+          <!-- <p class="p-lg">Technical support is only provided to the ones who pay to maintain their account and is only available via email and if agreed upon earlier via phone.</p> -->
           <p class="p-lg">We are not responsible for providing you with technical information in case you deactivate your account.</p>
           <p class="p-lg">Verbal or written abuse of any kind (including threats of abuse) of any Market Pluss customer, Market Pluss employee, member, or officer will result in immediate account termination and also legal actions.</p>
           <p class="p-lg">We do not claim any intellectual property rights over the material you provide to the Market Pluss service.</p>

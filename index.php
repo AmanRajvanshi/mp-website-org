@@ -52,7 +52,7 @@
           <!-- HERO IMAGE -->
           <div class="col-md-6 col-lg-4">
             <div class="hero-5-img pc-15 text-center">
-              <img class="img-fluid main-phone" src="img/w2.png" alt="hero-image">
+              <img class="img-fluid main-phone" src="img/w5.png" alt="hero-image">
             </div>
           </div>
           <!-- HERO-5 BUTTONS -->
@@ -1059,7 +1059,18 @@
       $('.video-overlay.open').removeClass('open').find('iframe').remove();
     };
   </script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {
+      myFunction()
+    };
 
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
   </script>
 </body>
 
