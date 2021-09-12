@@ -52,7 +52,7 @@
           <!-- HERO IMAGE -->
           <div class="col-md-6 col-lg-4">
             <div class="hero-5-img pc-15 text-center">
-              <img class="img-fluid main-phone" src="img/w5.png" alt="hero-image">
+              <img class="img-fluid main-phone" src="img/w1.png" alt="hero-image">
             </div>
           </div>
           <!-- HERO-5 BUTTONS -->
@@ -63,11 +63,11 @@
               <div class="stores-badge">
                 <!-- Google Play -->
                 <a href="#" class="store">
-                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" />
+                  <img class="googleplay" src="img/googleplay.png" alt="googleplay-badge" />
                 </a>
                 <!-- AppStore -->
                 <a href="#" class="store">
-                  <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
+                  <img class="appstore" src="img/appstore.png" alt="appstore-badge" />
                 </a>
               </div>
               <!-- END STORE BADGES -->
@@ -160,7 +160,7 @@
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6 m-top">
               <div class="img-block right-column pc-15 mb-40 wow fadeInLeft">
-                <img class="img-fluid" src="img/w4.png" alt="content-image" style="width:80%;">
+                <img class="img-fluid" src="img/w5.png" alt="content-image" style="width:80%;">
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@
           <div class="row d-flex align-items-center">
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
-              <div class="img-block left-column pc-25 mb-40 wow fadeInRight">
+              <div class="img-block left-column pc-25 mb-10 wow fadeInRight">
                 <img class="img-fluid" src="img/first.png" alt="content-image">
               </div>
             </div>
@@ -264,7 +264,7 @@
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
               <div class="content-5-img right-column pc-20 text-center wow fadeInRight">
-                <img class="img-fluid" src="img/w6.png" alt="content-image" style="width:65%;">
+                <img class="img-fluid" src="img/w8.png" alt="content-image" style="width:65%;">
               </div>
             </div>
             <!-- TEXT BLOCK -->
@@ -849,10 +849,10 @@
               <div class="reviews-download-btn wow fadeInUp" data-wow-delay="1s">
                 <div class="stores-badge mb-10">
                   <a href="#" class="store">
-                    <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
+                    <img class="appstore" src="img/appstore.png" alt="appstore-badge" />
                   </a>
                   <a href="#" class="store">
-                    <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" />
+                    <img class="googleplay" src="img/googleplay.png" alt="googleplay-badge" />
                   </a>
                 </div>
                 <span class="os-version">Available for iOS 8 and Android Devices From 5.5</span>
@@ -992,10 +992,10 @@
                 <!-- AppStore -->
                 <!-- Google Play -->
                 <a href="#" class="store">
-                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" />
+                  <img class="googleplay" src="img/googleplay.png" alt="googleplay-badge" />
                 </a>
                 <a href="#" class="store">
-                  <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
+                  <img class="appstore" src="img/appstore.png" alt="appstore-badge" />
                 </a>
               </div>
               <!-- END STORE BADGES -->

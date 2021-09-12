@@ -112,14 +112,6 @@
         ============================================= -->
     <div id="about-2" class="wide-90 about-section division" style="padding-top:80px;">
       <div class="container">
-        <!-- IMAGE BLOCK -->
-        <!-- <div class="row">
-          <div class="col-md-12">
-            <div class="img-block mb-70">
-              <img class="img-fluid" src="images/about-2-img.jpg" alt="content-image" style="border-radius:10px;">
-            </div>
-          </div>
-        </div> -->
         <!-- TEXT BLOCK -->
         <div class="about-2-txt">
           <div class="row">
