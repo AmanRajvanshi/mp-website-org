@@ -25,7 +25,7 @@
             <li class="nl-simple" aria-haspopup="true"><a href="about-us.php">About Us</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="career.php">Career</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="contact-us.php">Contact Us</a></li>
-            <li class="nl-simple" aria-haspopup="true"><a href="faq.php">FAQs</a></li>
+            <li class="nl-simple" aria-haspopup="true"><a href="customer-faq.php">FAQs</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="partner-with-us.php">Partner With US</a></li>
           </ul>
         </nav>
