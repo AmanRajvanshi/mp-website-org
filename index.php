@@ -262,13 +262,13 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <!-- IMAGE BLOCK -->
-            <div class="col-md-5 col-lg-6">
+            <div class="col-md-4 col-lg-4">
               <div class="content-5-img right-column pc-20 text-center wow fadeInRight">
-                <img class="img-fluid" src="img/w8.png" alt="content-image" style="width:65%;">
+                <img class="img-fluid" src="img/w8.png" alt="content-image">
               </div>
             </div>
             <!-- TEXT BLOCK -->
-            <div class="col-md-7 col-lg-6">
+            <div class="col-md-8 col-lg-8">
               <div class="txt-block left-column mb-40 wow fadeInLeft">
                 <!-- Section ID -->
                 <span class="section-id grey-color">Best Deals & Offers</span>

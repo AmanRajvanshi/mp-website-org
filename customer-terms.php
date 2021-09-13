@@ -32,7 +32,7 @@
           <div class="col-lg-12">
             <div class="hero-txt  white-color">
               <!-- Title -->
-              <h1 class="h2-md">frequently Bugged about</h1>
+              <h1 class="h2-md">terms & Conditions </h1>
               <!-- Text -->
               <!-- <p class="p-xl" style="color:#5d5d5d">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero
                 tempus, blandit and cursus varius magna
