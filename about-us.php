@@ -75,7 +75,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="img-block mb-70">
-              <img class="img-fluid" src="img/about-2-img.jpg" alt="content-image" style="border-radius:10px;">
+              <img class="img-fluid" src="img/team.png" alt="content-image" style="border-radius:10px;">
             </div>
           </div>
         </div>
