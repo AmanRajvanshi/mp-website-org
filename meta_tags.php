@@ -20,3 +20,6 @@
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link href="css/preloader.css" rel="stylesheet">
+<meta property="og:title" content="MarketPluss - Market in your Hands" />
+<meta property="og:description" content="Market Pluss, app exclusively with best deals & offers Dehradun. Get the top restaurants/cafes/salons/spas/gyms/opticals stores/fashion/clothing/toys/gifts near you." />
+<meta property="og:image" content="logos/mp.png" />

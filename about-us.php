@@ -3,7 +3,9 @@
 
 <head>
   <?php include 'meta_tags.php'; ?>
-  <title>Market Pluss - Market In Your Hands</title>
+  <title>Local Coupons and Offers In Dehradun</title>
+  <meta name="description" content="Market Pluss has unlimited stores & restaurants/cafes/salons/spas/gyms/opticals stores/fashion/clothing/toys/gifts etc with local coupons and offers in Dehradun. ">
+  <meta name="keywords" content=" Local coupons and offers in Dehradun">
   <style>
     .img-id {
       transition: transform .5s;
@@ -15,13 +17,9 @@
       transform: scale(1.07);
     }
 
-    .img-id {
-      width: 90%;
-    }
-
-    @media only screen and (max-width:600px) {
-      .img-id {
-        width: 50%;
+    @media only screen and (max-width:600px){
+      .img-id{
+        width:50%;
       }
     }
   </style>
@@ -75,7 +73,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="img-block mb-70">
-              <img class="img-fluid" src="img/team.png" alt="content-image" style="border-radius:10px;">
+              <img class="img-fluid" src="images/about-2-img.jpg" alt="content-image" style="border-radius:10px;">
             </div>
           </div>
         </div>

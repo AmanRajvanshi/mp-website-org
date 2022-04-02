@@ -3,10 +3,44 @@
 
 <head>
   <?php include 'meta_tags.php'; ?>
-  <title>Market Pluss - Market In Your Hands</title>
+  <title>Best Deals & Offers Dehradun </title>
+  <meta name="description" content="Market Pluss, app exclusively with best deals & offers Dehradun. Get the top restaurants/cafes/salons/spas/gyms/opticals stores/fashion/clothing/toys/gifts near you.">
+  <meta name="keywords" content="best deals & offers Dehradun ">
+  <meta name="google-site-verification" content="kl-R0s2gmitjkVukcrAEBtoTn5sp9KiwHJ42dZuwYE0" />
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJ45SGH');</script>
+<!-- End Google Tag Manager -->
+<meta name="msvalidate.01" content="E9EC9F2D18E4C6EC378D92ABC7C822D2" />
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '1419965725088316'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=1419965725088316&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ45SGH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <!-- PRELOADER SPINNER
       ============================================= -->
   <div class="preloader">
@@ -52,7 +86,7 @@
           <!-- HERO IMAGE -->
           <div class="col-md-6 col-lg-4">
             <div class="hero-5-img pc-15 text-center">
-              <img class="img-fluid main-phone" src="img/w1.png" alt="hero-image">
+              <img class="img-fluid main-phone" src="img/w2.png" alt="hero-image">
             </div>
           </div>
           <!-- HERO-5 BUTTONS -->
@@ -62,13 +96,16 @@
               <!-- STORE BADGES -->
               <div class="stores-badge">
                 <!-- Google Play -->
-                <a href="#" class="store">
-                  <img class="googleplay" src="img/googleplay.png" alt="googleplay-badge" />
+                <a href="https://play.google.com/store/apps/details?id=com.marketpluss_user" class="store" target="_blank">
+                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge"  style="cursor:pointer;margin-top:35px"/>
                 </a>
                 <!-- AppStore -->
+                <div style="display:flex;flex-direction:column;">
+                    <p style="color:black;margin:5px 0;font-weight:bold">Coming Soon On</p>
                 <a href="#" class="store">
-                  <img class="appstore" src="img/appstore.png" alt="appstore-badge" />
+                  <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
                 </a>
+                </div>
               </div>
               <!-- END STORE BADGES -->
               <!-- Rating -->
@@ -160,7 +197,7 @@
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6 m-top">
               <div class="img-block right-column pc-15 mb-40 wow fadeInLeft">
-                <img class="img-fluid" src="img/w5.png" alt="content-image" style="width:80%;">
+                <img class="img-fluid" src="img/w4.png" alt="content-image" style="width:80%;">
               </div>
             </div>
           </div>
@@ -172,7 +209,7 @@
           <div class="row d-flex align-items-center">
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
-              <div class="img-block left-column pc-25 mb-10 wow fadeInRight">
+              <div class="img-block left-column pc-25 mb-40 wow fadeInRight">
                 <img class="img-fluid" src="img/first.png" alt="content-image">
               </div>
             </div>
@@ -262,13 +299,13 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <!-- IMAGE BLOCK -->
-            <div class="col-md-4 col-lg-4">
+            <div class="col-md-5 col-lg-6">
               <div class="content-5-img right-column pc-20 text-center wow fadeInRight">
-                <img class="img-fluid" src="img/w8.png" alt="content-image">
+                <img class="img-fluid" src="img/w6.png" alt="content-image" style="width:65%;">
               </div>
             </div>
             <!-- TEXT BLOCK -->
-            <div class="col-md-8 col-lg-8">
+            <div class="col-md-7 col-lg-6">
               <div class="txt-block left-column mb-40 wow fadeInLeft">
                 <!-- Section ID -->
                 <span class="section-id grey-color">Best Deals & Offers</span>
@@ -849,10 +886,10 @@
               <div class="reviews-download-btn wow fadeInUp" data-wow-delay="1s">
                 <div class="stores-badge mb-10">
                   <a href="#" class="store">
-                    <img class="appstore" src="img/appstore.png" alt="appstore-badge" />
+                    <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
                   </a>
                   <a href="#" class="store">
-                    <img class="googleplay" src="img/googleplay.png" alt="googleplay-badge" />
+                    <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" />
                   </a>
                 </div>
                 <span class="os-version">Available for iOS 8 and Android Devices From 5.5</span>
@@ -988,15 +1025,18 @@
                 market in the best possible way.
               </p>
               <!-- STORE BADGES -->
-              <div class="stores-badge mb-50">
-                <!-- AppStore -->
+              <div class="stores-badge">
                 <!-- Google Play -->
-                <a href="#" class="store">
-                  <img class="googleplay" src="img/googleplay.png" alt="googleplay-badge" />
+                <a href="https://play.google.com/store/apps/details?id=com.marketpluss_user" class="store" target="_blank">
+                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge"  style="cursor:pointer;margin-top:35px"/>
                 </a>
+                <!-- AppStore -->
+                <div style="display:flex;flex-direction:column;">
+                    <p style="color:black;margin:5px 0;font-weight:bold;padding:0;">Coming Soon On</p>
                 <a href="#" class="store">
-                  <img class="appstore" src="img/appstore.png" alt="appstore-badge" />
+                  <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
                 </a>
+                </div>
               </div>
               <!-- END STORE BADGES -->
             </div>
@@ -1059,18 +1099,7 @@
       $('.video-overlay.open').removeClass('open').find('iframe').remove();
     };
   </script>
-  <script>
-    // When the user scrolls the page, execute myFunction 
-    window.onscroll = function() {
-      myFunction()
-    };
 
-    function myFunction() {
-      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      var scrolled = (winScroll / height) * 100;
-      document.getElementById("myBar").style.width = scrolled + "%";
-    }
   </script>
 </body>
 

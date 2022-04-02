@@ -14,8 +14,8 @@
       <div class="wsmainwp clearfix">
         <!-- HEADER LOGO -->
         <div class="desktoplogo">
-          <a href="index.php">
-            <img src="logos/Asset 3112-1.png" alt="header-logo">
+          <a href="./">
+            <img src="logos/Asset 3112.png" alt="header-logo">
           </a>
         </div>
         <!-- MAIN MENU -->
@@ -23,7 +23,8 @@
           <ul class="wsmenu-list nav-rose-hover">
             <li class="nl-simple" aria-haspopup="true"><a href="index.php">Home</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="about-us.php">About Us</a></li>
-            <li class="nl-simple" aria-haspopup="true"><a href="career.php">Career</a></li>
+            <!--<li class="nl-simple" aria-haspopup="true"><a href="career.php">Career</a></li>-->
+            <li class="nl-simple" aria-haspopup="true"><a href="https://marketpluss.com/informational" target="_blank">Informational</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="contact-us.php">Contact Us</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="customer-faq.php">FAQs</a></li>
             <li class="nl-simple" aria-haspopup="true"><a href="partner-with-us.php">Partner With US</a></li>

@@ -3,7 +3,9 @@
 
 <head>
   <?php include 'meta_tags.php'; ?>
-  <title>Market Pluss - Market In Your Hands</title>
+  <title>Best Deals In Dehradun, Dehradun Deals</title>
+  <meta name="description" content="Market Pluss exclusively for Doonites shows local market with best deals in Dehradun. See Dehradun deals in every category & save money. Refer & Earn 50 MP coins. ">
+  <meta name="keywords" content="Best deals in Dehradun, Dehradun Deals ">
   <style>
     h5 {
       font-weight: 500;
