@@ -8,39 +8,94 @@
   <meta name="keywords" content="best deals & offers Dehradun ">
   <meta name="google-site-verification" content="kl-R0s2gmitjkVukcrAEBtoTn5sp9KiwHJ42dZuwYE0" />
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WJ45SGH');</script>
-<!-- End Google Tag Manager -->
-<meta name="msvalidate.01" content="E9EC9F2D18E4C6EC378D92ABC7C822D2" />
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '1419965725088316'); 
-fbq('track', 'PageView');
-</script>
-<noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=1419965725088316&ev=PageView
-&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WJ45SGH');
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta name="msvalidate.01" content="E9EC9F2D18E4C6EC378D92ABC7C822D2" />
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1419965725088316');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=1419965725088316&ev=PageView
+&noscript=1" />
+  </noscript>
+  <style>
+    /**
+ * Simple fade transition,
+ */
+    .mfp-fade.mfp-bg {
+      opacity: 0;
+      -webkit-transition: all 0.15s ease-out;
+      -moz-transition: all 0.15s ease-out;
+      transition: all 0.15s ease-out;
+    }
+
+    .mfp-fade.mfp-bg.mfp-ready {
+      opacity: 0.8;
+    }
+
+    .mfp-fade.mfp-bg.mfp-removing {
+      opacity: 0;
+    }
+
+    .mfp-fade.mfp-wrap .mfp-content {
+      opacity: 0;
+      -webkit-transition: all 0.15s ease-out;
+      -moz-transition: all 0.15s ease-out;
+      transition: all 0.15s ease-out;
+    }
+
+    .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+      opacity: 1;
+    }
+
+    .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+      opacity: 0;
+    }
+
+    */
+  </style>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ45SGH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ45SGH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <!-- PRELOADER SPINNER
       ============================================= -->
   <div class="preloader">
@@ -76,7 +131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </p>
               <!-- HERO LINKS -->
               <div class="hero-video-link">
-                <a id="play-video" class="video-play-button" href="#">
+                <a id="play-video" class="video-play-button popup-youtube" href="https://www.youtube.com/watch?v=Wg4eTcOGnPE">
                   <span></span>
                 </a>
               </div>
@@ -97,20 +152,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="stores-badge">
                 <!-- Google Play -->
                 <a href="https://play.google.com/store/apps/details?id=com.marketpluss_user" class="store" target="_blank">
-                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge"  style="cursor:pointer;margin-top:35px"/>
+                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" style="cursor:pointer" />
                 </a>
                 <!-- AppStore -->
                 <div style="display:flex;flex-direction:column;">
-                    <p style="color:black;margin:5px 0;font-weight:bold">Coming Soon On</p>
-                <a href="#" class="store">
-                  <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
-                </a>
+                  <!-- <p style="color:black;margin:5px 0;font-weight:bold;padding:0;">Coming Soon On</p> -->
+                  <a href="javascript:void(0)" class="store">
+                    <img class="appstore" src="images/app-store.jpg" alt="appstore-badge" style="border-radius:5px"/>
+                  </a>
                 </div>
               </div>
               <!-- END STORE BADGES -->
               <!-- Rating -->
               <div class="txt-block-rating">
-                <h6 style="opacity:0.6">(Currently Available in Dehradun)</h6>
+                <h6 style="opacity:0.8;text-align:center;font-size:16px">(Currently Available in Dehradun)</h6>
               </div>
             </div>
           </div>
@@ -886,7 +941,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="reviews-download-btn wow fadeInUp" data-wow-delay="1s">
                 <div class="stores-badge mb-10">
                   <a href="#" class="store">
-                    <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
+                    <img class="appstore" src="images/app-store.jpg" alt="appstore-badge" style="border-radius:5px"/>
                   </a>
                   <a href="#" class="store">
                     <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" />
@@ -1028,14 +1083,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="stores-badge">
                 <!-- Google Play -->
                 <a href="https://play.google.com/store/apps/details?id=com.marketpluss_user" class="store" target="_blank">
-                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge"  style="cursor:pointer;margin-top:35px"/>
+                  <img class="googleplay" src="images/googleplay.png" alt="googleplay-badge" style="cursor:pointer" />
                 </a>
                 <!-- AppStore -->
                 <div style="display:flex;flex-direction:column;">
-                    <p style="color:black;margin:5px 0;font-weight:bold;padding:0;">Coming Soon On</p>
-                <a href="#" class="store">
-                  <img class="appstore" src="images/appstore.png" alt="appstore-badge" />
-                </a>
+                  <!-- <p style="color:black;margin:5px 0;font-weight:bold;padding:0;">Coming Soon On</p> -->
+                  <a href="javascript:void(0)" class="store">
+                    <img class="appstore" src="images/app-store.jpg" alt="appstore-badge" style="border-radius:5px"/>
+                  </a>
                 </div>
               </div>
               <!-- END STORE BADGES -->
@@ -1099,7 +1154,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       $('.video-overlay.open').removeClass('open').find('iframe').remove();
     };
   </script>
-
+  <script>
+    $(document).ready(function() {
+      $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false,
+      });
+    });
   </script>
 </body>
 

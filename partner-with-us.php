@@ -6,34 +6,17 @@
   <title>Market Pluss - Market In Your Hands</title>
   <style>
     .join-us {
-      margin: 30px auto;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      margin: 30px 0;
       background-color: #F7F7F7;
+      max-width: 100%;
     }
 
     .join-us-col {
       display: grid;
       place-items: center;
       padding: 10px;
-    }
-
-    .svg {
-      width: 70%;
-      opacity: 0.9;
-      transition: transform .5s;
-    }
-
-    .svg:hover {
-      -ms-transform: scale(1.07);
-      -webkit-transform: scale(1.07);
-      transform: scale(1.07);
-    }
-
-    @media only screen and (max-width:600px) {
-      .svg {
-        width: 50%;
-      }
     }
   </style>
 </head>
@@ -78,40 +61,46 @@
       <!-- End container -->
     </div>
     <!-- END PAGE HERO -->
-    <section class="join-us">
-      <div class="container join-us">
-        <div class="row">
-          <div class="col-md-2 join-us-col">
-            <img class="svg" src="img/svg/user.svg" style="width:70%;opacity:0.9">
-            <h6 style="margin:30px 0 0 0">User Friendly</h6>
-          </div>
-          <div class="col-md-2 join-us-col">
-            <img class="svg" src="img/svg/choices.svg" style="width:70%;opacity:0.9">
-            <h6 style="margin:30px 0 0 0">Exciting Choices</h6>
-          </div>
-          <div class="col-md-2 join-us-col">
-            <img class="svg" src="img/svg/categories.svg" style="width:70%;opacity:0.9">
-            <h6 style="margin:30px 0 0 0">Unlimited Categories</h6>
-          </div>
-          <div class="col-md-2 join-us-col">
-            <img class="svg" src="img/svg/satisfaction.svg" style="width:70%;opacity:0.9">
-            <h6 style="margin:30px 0 0 0">Customer Delight</h6>
-          </div>
-          <div class="col-md-2 join-us-col">
-            <img class="svg" src="img/svg/offers.svg" style="width:70%;opacity:0.9">
-            <h6 style="margin:30px 0 0 0">Finest Deals & Offers</h6>
-          </div>
-          <div class="col-md-2 join-us-col">
-            <img class="svg" src="img/svg/alternatives.svg" style="width:70%;opacity:0.9">
-            <h6 style="margin:30px 0 0 0">Better Alternatives</h6>
-          </div>
+    <div class="container join-us">
+      <div class="row">
+        <div class="col-md-2 join-us-col">
+          <img src="img/svg/user.svg" style="width:70%;">
+          <h5 style="margin:30px 0 0 0">User Friendly</h5>
+        </div>
+        <div class="col-md-2 join-us-col">
+          <img src="img/svg/offers.svg" style="width:70%;">
+          <h5 style="margin:30px 0 0 0">Exciting Offers</h5>
+        </div>
+        <div class="col-md-2 join-us-col">
+          <img src="img/svg/categories.svg" style="width:70%;">
+          <h5 style="margin:30px 0 0 0">Unlimited Categories</h5>
+        </div>
+        <div class="col-md-2 join-us-col">
+          <img src="img/svg/satisfaction.svg" style="width:70%;">
+          <h5 style="margin:30px 0 0 0">Customer Delight</h5>
+        </div>
+        <div class="col-md-2 join-us-col">
+          <img src="img/svg/offers.svg" style="width:70%;">
+          <h5 style="margin:30px 0 0 0">Finest Deals & Offers</h5>
+        </div>
+        <div class="col-md-2 join-us-col">
+          <img src="img/svg/alternatives.svg" style="width:70%;">
+          <h5 style="margin:30px 0 0 0">Better Alternatives</h5>
         </div>
       </div>
-    </section>
+    </div>
     <!-- ABOUT-2
         ============================================= -->
     <div id="about-2" class="wide-90 about-section division" style="padding-top:80px;">
       <div class="container">
+        <!-- IMAGE BLOCK -->
+        <!-- <div class="row">
+          <div class="col-md-12">
+            <div class="img-block mb-70">
+              <img class="img-fluid" src="images/about-2-img.jpg" alt="content-image" style="border-radius:10px;">
+            </div>
+          </div>
+        </div> -->
         <!-- TEXT BLOCK -->
         <div class="about-2-txt">
           <div class="row">

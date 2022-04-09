@@ -21,7 +21,7 @@
   <div id="page" class="page">
     <!-- HEADER
         ============================================= -->
-    <?php include 'header.php'; ?>
+      <?php include 'header.php'; ?>
     <!-- END HEADER -->
     <!-- PAGE HERO
         ============================================= -->
@@ -194,7 +194,7 @@
     </div>
     <!-- FOOTER-2
         ============================================= -->
-    <?php include 'footer.php'; ?>
+      <?php include 'footer.php'; ?>
     <!-- END FOOTER-2 -->
   </div>
   <!-- END PAGE CONTENT -->

@@ -35,7 +35,7 @@
   <div id="page" class="page">
     <!-- HEADER
         ============================================= -->
-    <?php include 'header.php'; ?>
+        <?php include 'header.php'; ?>
     <!-- END HEADER -->
     <!-- PAGE HERO
         ============================================= -->
@@ -127,16 +127,16 @@
           </table>
         </div>
         <div class="row" style="display:grid;place-items:center;margin:20px 0">
-          <h2>Drop Your CV : </h2>
-          <br>
-          <h2 class="h2-md"><a href="mailto:hr@webixun.com">hr@webixun.com</a></h2>
+            <h2>Drop Your CV : </h2>
+            <br>
+            <h2 class="h2-md"><a href="mailto:hr@webixun.com">hr@webixun.com</a></h2>
         </div>
       </div>
     </section>
     <!-- END CONTENT-2 -->
     <!-- FOOTER-2
         ============================================= -->
-    <?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
     <!-- END FOOTER-2 -->
   </div>
   <!-- END PAGE CONTENT -->

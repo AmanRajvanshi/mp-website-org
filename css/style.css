@@ -12,22 +12,22 @@ body {
   font-weight: 300;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
+::-webkit-scrollbar{
+  width:10px;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track{
   background-color: transparent;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: hsla(222, 89%, 57%, 0.041);
-  border-radius: 30px;
+::-webkit-scrollbar-thumb{
+  background-color:hsla(222, 89%, 57%, 0.041);
+  border-radius:30px;
 }
 
 /*------------------------------------------------------------------*/
 /*  IE10 in Windows 8 and Windows Phone 8 Bug fix
-  /*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
 
 @-webkit-viewport {
   width: device-width;
@@ -51,7 +51,7 @@ body {
 
 /*------------------------------------------*/
 /*  PAGE CONTENT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #page {
   overflow: hidden;
@@ -59,7 +59,7 @@ body {
 
 /*------------------------------------------*/
 /*  SPACING & INDENTS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wide-100 {
   padding-top: 100px;
@@ -113,7 +113,7 @@ body {
 
 /*------------------------------------------*/
 /*  Margin Top
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .mt-100 {
   margin-top: 100px;
@@ -201,7 +201,7 @@ body {
 
 /*------------------------------------------*/
 /*  Margin Top Inverse
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .mt-inverse-150 {
   margin-top: -150px;
@@ -261,7 +261,7 @@ body {
 
 /*------------------------------------------*/
 /*  Margin Bottom
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .mb-100 {
   margin-bottom: 100px;
@@ -349,7 +349,7 @@ body {
 
 /*------------------------------------------*/
 /*  Margin Left
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .ml-100 {
   margin-left: 100px;
@@ -429,7 +429,7 @@ body {
 
 /*------------------------------------------*/
 /*  Margin Right
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .mr-100 {
   margin-right: 100px;
@@ -513,7 +513,7 @@ body {
 
 /*------------------------------------------*/
 /*  Padding Top
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pt-100 {
   padding-top: 100px;
@@ -597,7 +597,7 @@ body {
 
 /*------------------------------------------*/
 /*  Padding Bottom
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pb-100 {
   padding-bottom: 100px;
@@ -681,7 +681,7 @@ body {
 
 /*------------------------------------------*/
 /*  Padding Left
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pl-100 {
   padding-left: 100px;
@@ -765,7 +765,7 @@ body {
 
 /*------------------------------------------*/
 /*  Padding Right
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pr-100 {
   padding-right: 100px;
@@ -849,7 +849,7 @@ body {
 
 /*------------------------------------------*/
 /*  Padding Centered
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pc-70 {
   padding-right: 70px;
@@ -923,7 +923,7 @@ body {
 
 /*------------------------------------------*/
 /*  BACKGROUND SETTINGS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .rel {
   position: relative !important;
@@ -944,7 +944,7 @@ body {
 
 /*------------------------------------------*/
 /*  Background Colors
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .bg_dark {
   background-color: #282B38 !important;
@@ -1024,7 +1024,7 @@ body {
 
 /*------------------------------------------*/
 /*  Background Gradients
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .blue_gradient {
   background: -webkit-linear-gradient(to right, #005cda, #006cff 100%);
@@ -1075,7 +1075,7 @@ body {
 
 /*------------------------------------------*/
 /*  Background Images for Sections
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .bg_chat,
 .bg_fit_01,
@@ -1168,7 +1168,7 @@ body {
 
 /*------------------------------------------*/
 /*  Background Shapes
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 
 .first-screen__bg-1 {
@@ -1235,7 +1235,7 @@ body {
 
 /*------------------------------------------*/
 /*  TRANSPARENT BACKGROUND
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .bg_el_01,
 .bg_el_02,
@@ -1290,7 +1290,7 @@ body {
 
 /*------------------------------------------*/
 /*  Background Overlays for Sections
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .top_overlay,
 .wave_overlay,
@@ -1334,7 +1334,7 @@ body {
 
 /*------------------------------------------*/
 /*  BORDER SETTINGS FOR DEMOS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .b-border {
   border: 1px solid #ddd;
@@ -1358,7 +1358,7 @@ body {
 
 /*------------------------------------------*/
 /*  SECTION DIVIDER
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .section-divider {
   display: inline-block;
@@ -1385,28 +1385,6 @@ body {
   z-index: 2;
 }
 
-@media only screen and (max-width: 768px) {
-  .h2-md {
-    color: rgba(0, 66, 181, 1) !important;
-    margin-top: 100px !important;
-    text-align: left !important;
-    font-size: 50px !important;
-    padding-top: 0px !important;
-    text-transform: capitalize !important;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .h2-md {
-    color: rgba(0, 66, 181, 1) !important;
-    margin-top: 100px !important;
-    text-align: left !important;
-    font-size: 50px !important;
-    padding-top: 0px !important;
-    text-transform: capitalize !important;
-  }
-}
-
 @media only screen and (max-width:600px) {
   .section-divider:before {
     left: 45%;
@@ -1421,12 +1399,12 @@ body {
 
 
 /* ==========================================================================
-    02. TYPOGRAPHY
-    =========================================================================== */
+  02. TYPOGRAPHY
+  =========================================================================== */
 
 /*------------------------------------------*/
 /*  HEADERS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 h1,
 h2,
@@ -1616,7 +1594,7 @@ h2.h2-title-xl {
 
 /*------------------------------------------*/
 /*  PARAGRAPHS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 p {
   font-size: 1.0625rem;
@@ -1644,11 +1622,11 @@ p.p-xl {
 
 /*------------------------------------------*/
 /*  LINK SETTINGS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 a {
   color: #998da0;
-  /* text-decoration: none !important; */
+  text-decoration: none;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
@@ -1668,7 +1646,7 @@ a:focus {
 
 /*------------------------------------------*/
 /*  LISTS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 ul {
   margin: 0;
@@ -1678,7 +1656,7 @@ ul {
 
 /*------------------------------------------*/
 /*  TEXT LIST
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .txt-list li i {
   position: relative;
@@ -1701,7 +1679,7 @@ ul.simple-list {
 
 /*------------------------------------------*/
 /*  NUMBER LIST
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 ol.num-list {
   margin-left: -20px;
@@ -1723,7 +1701,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  BOX LIST
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .box-list p {
   position: relative;
@@ -1757,7 +1735,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  BUTTON SETTINGS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .btn {
   background-color: transparent;
@@ -1785,7 +1763,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  Button Icon
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .ico-left .btn span {
   margin-right: 4px;
@@ -1799,7 +1777,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  Button Size
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .btn.btn-md {
   font-size: 1.1675rem;
@@ -1808,7 +1786,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  Button Color
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .btn-white,
 .white-color .btn-white {
@@ -2090,7 +2068,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  Button Hover
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .white-hover:hover,
 .scroll .white-hover:hover {
@@ -2148,7 +2126,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  Button Focus
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .btn:focus {
   color: #fff;
@@ -2177,7 +2155,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  VIDEO LINK
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .btn-md.btn-video-link {
   color: #666;
@@ -2197,7 +2175,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  VIDEO POPUP ICON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .video-preview {
   position: relative;
@@ -2337,7 +2315,7 @@ ol.digit-list p {
 
 /*------------------------------------------*/
 /*  STORE BADGE ICONS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .stores-badge {
   display: inline-block;
@@ -2390,7 +2368,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  VECTOR ICONS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .ico-15 [class*="flaticon-"]:before,
 .ico-15 [class*="flaticon-"]:after {
@@ -2533,7 +2511,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*   PNG ICONS SETTINGS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .ico-150 img {
   width: 150px;
@@ -2672,7 +2650,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*   SECTION ID
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .section-id {
   display: block;
@@ -2690,7 +2668,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  SECTION TITLE
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .section-title p {
   padding: 0 12%;
@@ -2700,7 +2678,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  FONT SETTINGS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .txt-300 {
   font-weight: 300;
@@ -2728,7 +2706,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  TEXT COLORS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .white-color,
 .white-color h2,
@@ -2926,7 +2904,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  TEXT GRADIENT COLORS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .text-purple-gradient {
   background: -webkit-linear-gradient(235deg, #cb6ddb 0%, #3426b7 100%);
@@ -2946,7 +2924,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  TEXT BLOCK
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .txt-block.left-column {
   padding-left: 40px;
@@ -2960,7 +2938,7 @@ span.os-version {
 
 /*------------------------------------------*/
 /*  TEXT BLOCK TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .txt-block h3,
 .txt-block h2 {
@@ -2979,7 +2957,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Text Block Icon
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .block-ico {
   position: relative;
@@ -2997,7 +2975,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Text Block Icons list
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .txt-block-ico-list {
   margin-top: 40px;
@@ -3014,7 +2992,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Text Block Rating
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .txt-block-rating {
   margin-top: 20px;
@@ -3043,7 +3021,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  IMG BLOCK IMAGE
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .img-block {
   text-align: center;
@@ -3051,7 +3029,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  BORDER RADIUS SETTING
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .radius-0 {
   -webkit-border-radius: 0px;
@@ -3092,283 +3070,283 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    03. PRELOAD ANIMATION
-    ========================================================================== */
+  03. PRELOAD ANIMATION
+  ========================================================================== */
 
 /* #loader-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999;
+}
+
+#loading {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999999;
+  margin-top: 0px;
+  top: 0px;
+}
+
+.cssload-loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+  width: 70px;
+  height: 70px;
+  border: 6px solid #007afc;
+  animation: cssload-loader 3.9s infinite ease;
+  -o-animation: cssload-loader 3.9s infinite ease;
+  -ms-animation: cssload-loader 3.9s infinite ease;
+  -webkit-animation: cssload-loader 3.9s infinite ease;
+  -moz-animation: cssload-loader 3.9s infinite ease;
+}
+
+.cssload-loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #007afc;
+  animation: cssload-loader-inner 3.9s infinite ease-in;
+  -o-animation: cssload-loader-inner 3.9s infinite ease-in;
+  -ms-animation: cssload-loader-inner 3.9s infinite ease-in;
+  -webkit-animation: cssload-loader-inner 3.9s infinite ease-in;
+  -moz-animation: cssload-loader-inner 3.9s infinite ease-in;
+}
+
+
+@keyframes cssload-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes cssload-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes cssload-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes cssload-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes cssload-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cssload-loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
     height: 100%;
-    z-index: 99999999;
   }
-  
-  #loading {
-    background-color: #fff;
+
+  75% {
     height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 99999999;
-    margin-top: 0px;
-    top: 0px;
   }
-  
-  .cssload-loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -35px;
-    margin-left: -35px;
-    width: 70px;
-    height: 70px;
-    border: 6px solid #007afc;
-    animation: cssload-loader 3.9s infinite ease;
-    -o-animation: cssload-loader 3.9s infinite ease;
-    -ms-animation: cssload-loader 3.9s infinite ease;
-    -webkit-animation: cssload-loader 3.9s infinite ease;
-    -moz-animation: cssload-loader 3.9s infinite ease;
+
+  100% {
+    height: 0%;
   }
-  
-  .cssload-loader-inner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #007afc;
-    animation: cssload-loader-inner 3.9s infinite ease-in;
-    -o-animation: cssload-loader-inner 3.9s infinite ease-in;
-    -ms-animation: cssload-loader-inner 3.9s infinite ease-in;
-    -webkit-animation: cssload-loader-inner 3.9s infinite ease-in;
-    -moz-animation: cssload-loader-inner 3.9s infinite ease-in;
+}
+
+@-o-keyframes cssload-loader-inner {
+  0% {
+    height: 0%;
   }
-  
-  
-  @keyframes cssload-loader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      transform: rotate(180deg);
-    }
-  
-    50% {
-      transform: rotate(180deg);
-    }
-  
-    75% {
-      transform: rotate(360deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+
+  25% {
+    height: 0%;
   }
-  
-  @-o-keyframes cssload-loader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      transform: rotate(180deg);
-    }
-  
-    50% {
-      transform: rotate(180deg);
-    }
-  
-    75% {
-      transform: rotate(360deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+
+  50% {
+    height: 100%;
   }
-  
-  @-ms-keyframes cssload-loader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      transform: rotate(180deg);
-    }
-  
-    50% {
-      transform: rotate(180deg);
-    }
-  
-    75% {
-      transform: rotate(360deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+
+  75% {
+    height: 100%;
   }
-  
-  @-webkit-keyframes cssload-loader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      transform: rotate(180deg);
-    }
-  
-    50% {
-      transform: rotate(180deg);
-    }
-  
-    75% {
-      transform: rotate(360deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+
+  100% {
+    height: 0%;
   }
-  
-  @-moz-keyframes cssload-loader {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      transform: rotate(180deg);
-    }
-  
-    50% {
-      transform: rotate(180deg);
-    }
-  
-    75% {
-      transform: rotate(360deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+}
+
+@-ms-keyframes cssload-loader-inner {
+  0% {
+    height: 0%;
   }
-  
-  @keyframes cssload-loader-inner {
-    0% {
-      height: 0%;
-    }
-  
-    25% {
-      height: 0%;
-    }
-  
-    50% {
-      height: 100%;
-    }
-  
-    75% {
-      height: 100%;
-    }
-  
-    100% {
-      height: 0%;
-    }
+
+  25% {
+    height: 0%;
   }
-  
-  @-o-keyframes cssload-loader-inner {
-    0% {
-      height: 0%;
-    }
-  
-    25% {
-      height: 0%;
-    }
-  
-    50% {
-      height: 100%;
-    }
-  
-    75% {
-      height: 100%;
-    }
-  
-    100% {
-      height: 0%;
-    }
+
+  50% {
+    height: 100%;
   }
-  
-  @-ms-keyframes cssload-loader-inner {
-    0% {
-      height: 0%;
-    }
-  
-    25% {
-      height: 0%;
-    }
-  
-    50% {
-      height: 100%;
-    }
-  
-    75% {
-      height: 100%;
-    }
-  
-    100% {
-      height: 0%;
-    }
+
+  75% {
+    height: 100%;
   }
-  
-  @-webkit-keyframes cssload-loader-inner {
-    0% {
-      height: 0%;
-    }
-  
-    25% {
-      height: 0%;
-    }
-  
-    50% {
-      height: 100%;
-    }
-  
-    75% {
-      height: 100%;
-    }
-  
-    100% {
-      height: 0%;
-    }
+
+  100% {
+    height: 0%;
   }
-  
-  @-moz-keyframes cssload-loader-inner {
-    0% {
-      height: 0%;
-    }
-  
-    25% {
-      height: 0%;
-    }
-  
-    50% {
-      height: 100%;
-    }
-  
-    75% {
-      height: 100%;
-    }
-  
-    100% {
-      height: 0%;
-    }
-  } */
+}
+
+@-webkit-keyframes cssload-loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
+
+@-moz-keyframes cssload-loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+} */
 
 
 
 
 /* ==========================================================================
-    04. HEADER & NAVIGATION
-    =========================================================================== */
+  04. HEADER & NAVIGATION
+  =========================================================================== */
 
 #header {
   width: 100%;
@@ -3416,17 +3394,17 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HEADER LOGO
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .desktoplogo img {
   width: 165px;
   /* max-width: inherit;
-    max-height: 38px; */
+  max-height: 38px; */
 }
 
 /*------------------------------------------*/
 /*   NAVIGATION MENU
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wsmainfull {
   width: 100%;
@@ -3465,7 +3443,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HEADER LINK
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wsmenu>.wsmenu-list>li>a {
   display: block;
@@ -3489,21 +3467,21 @@ h5.sm-title {
 }
 
 /* .wsmenu>.wsmenu-list>li>a::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to right, #0742E3, #3233F2);
-    transform: scaleX(0);
-    transition: transform 0.4s ease;
-  }
-  
-  .wsmenu>.wsmenu-list>li>a:hover::before {
-    transform: scaleX(1);
-  } */
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #0742E3, #3233F2);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.wsmenu>.wsmenu-list>li>a:hover::before {
+  transform: scaleX(1);
+} */
 
 .navbar-dark .wsmenu>.wsmenu-list>li>a {
   color: #463853;
@@ -3535,7 +3513,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HEADER BUTTONS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wsmenu>.wsmenu-list>li a.btn {
   font-size: 16.5px;
@@ -3555,7 +3533,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HEADER SOCIAL LINKS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .header-socials {
   margin: 0;
@@ -3590,7 +3568,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HEADER SUBMENU
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wsmenu>.wsmenu-list>li>ul.sub-menu {
   padding: 12px 20px;
@@ -3617,7 +3595,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*   HALFMENU
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wsmenu>.wsmenu-list>li>.wsmegamenu.halfmenu {
   width: 36%;
@@ -3647,7 +3625,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  NAVBAR HOVER
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .wsmenu>.wsmenu-list.nav-blue-hover>li>ul.sub-menu>li>a:hover,
 .wsmenu>.wsmenu-list.nav-blue-hover>li>.wsmegamenu.halfmenu ul.link-list>li>a:hover {
@@ -3681,7 +3659,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  NAVBAR SCROLL
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .tra-menu .wsmainfull.scroll,
 .white-menu .wsmainfull.scroll,
@@ -3699,7 +3677,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Navigation Menu
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .tra-menu.navbar-light .scroll .wsmenu>.wsmenu-list>li a {
   color: #463853;
@@ -3719,7 +3697,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Logo Image
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .logo-white,
 .logo-black {
@@ -3744,8 +3722,8 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    05. HERO
-    =========================================================================== */
+  05. HERO
+  =========================================================================== */
 @media only screen and (max-width:600px) {
   .about-2-txt .row .col-md-5 .animation-one {
     display: none;
@@ -3802,8 +3780,8 @@ h5.sm-title {
   position: absolute;
   z-index: 10;
   /* top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%); */
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); */
   box-sizing: content-box;
   display: block;
   width: 32px;
@@ -3886,19 +3864,19 @@ h5.sm-title {
 }
 
 /* #hero-5:after {
-    position: absolute;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background-color: #e6e7f9;
-    top: 0;
-    left: 50%;
-    z-index: -1;
-    -webkit-border-radius: 0 0 0 8px;
-    -moz-border-radius: 0 0 0 8px;
-    -o-border-radius: 0 0 0 8px;
-    border-radius: 0 0 0 8px;
-  } */
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background-color: #e6e7f9;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  -webkit-border-radius: 0 0 0 8px;
+  -moz-border-radius: 0 0 0 8px;
+  -o-border-radius: 0 0 0 8px;
+  border-radius: 0 0 0 8px;
+} */
 
 #hero-6 {
   background-color: #319cfb;
@@ -3950,7 +3928,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HERO TEXT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .hero-1-txt {
   margin-top: -50px;
@@ -3981,14 +3959,14 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HERO APP LOGO
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 /* .main-phone {
-    color:transparent;
-    box-shadow: 9px 10px 27px -5px rgba(0, 0, 0, 0.65);
-    -webkit-box-shadow: 9px 10px 27px -5px rgba(0, 0, 0, 0.65);
-    -moz-box-shadow: 9px 10px 27px -5px rgba(0, 0, 0, 0.65);
-  } */
+  color:transparent;
+  box-shadow: 9px 10px 27px -5px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 9px 10px 27px -5px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 9px 10px 27px -5px rgba(0, 0, 0, 0.65);
+} */
 
 .hero-app-logo {
   margin-bottom: 30px;
@@ -4006,7 +3984,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Headers
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .hero-1-txt h2 {
   font-size: 3.6875rem;
@@ -4104,7 +4082,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Paragraphs
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .hero-1-txt p {
   font-size: 1.3rem;
@@ -4142,7 +4120,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HERO OS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .hero-section .os-version {
   font-size: 1.08rem;
@@ -4150,7 +4128,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HERO FORM
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #hero-3 .request-form {
   margin: 30px 30px 30px 0;
@@ -4162,7 +4140,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Request Form Input
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .request-form .form-control {
   height: 56px;
@@ -4191,7 +4169,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Request Form Placeholder
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .request-form .form-control::-moz-placeholder {
   color: #998da0;
@@ -4207,7 +4185,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Request Form Focus
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .request-form .form-control:focus {
   background-color: #f5f6f7;
@@ -4218,7 +4196,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Request Form Button
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .request-form .btn {
   height: 56px;
@@ -4233,7 +4211,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  Hero Request Form Message
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .request-form-msg {
   width: 100% !important;
@@ -4251,7 +4229,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  HERO IMAGE
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .hero-2-img {
   margin-left: -10%;
@@ -4297,8 +4275,8 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    06. ABOUT
-    =========================================================================== */
+  06. ABOUT
+  =========================================================================== */
 
 .about-2-txt h5 {
   margin-bottom: 20px;
@@ -4309,9 +4287,12 @@ h5.sm-title {
   margin-bottom: 0;
 }
 
+
+
+
 /* ==========================================================================
-    07. FEATURES
-    =========================================================================== */
+  07. FEATURES
+  =========================================================================== */
 
 #features-13.aliceblue_shape:after,
 #features-13.whitesmoke_shape:after {
@@ -4340,7 +4321,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  FEATURES BOX WRAPPER
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .fbox-7-wrapper {
   padding: 0 12%;
@@ -4362,7 +4343,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  FEATURE BOX
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .fbox-2,
 .fbox-3,
@@ -4462,7 +4443,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  FEATURE BOX TEXT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .fbox-txt {
   overflow: hidden;
@@ -4475,7 +4456,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  FEATURE BOX TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .fbox-1 h5,
 .fbox-3 h5,
@@ -4531,7 +4512,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  FEATURE BOX ICON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .fbox-1-ico {
   width: 125px;
@@ -4589,7 +4570,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  FEATURES DOWNLOAD BUTTON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .features-download-btn {
   text-align: center;
@@ -4601,8 +4582,8 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    08. CONTENT
-    =========================================================================== */
+  08. CONTENT
+  =========================================================================== */
 
 #content-4 .container {
   overflow: hidden;
@@ -4696,7 +4677,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  CONTENT BOX
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .cbox-txt {
   overflow: hidden;
@@ -4729,7 +4710,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  CONTENT IMAGE
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .content-5-img,
 .content-6-img {
@@ -4770,8 +4751,8 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    09. PROCESS
-    ========================================================================== */
+  09. PROCESS
+  ========================================================================== */
 
 .pbox-1 {
   text-align: center;
@@ -4780,7 +4761,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  PROCESS BOX TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pbox-1 h5,
 .pbox-2 h5 {
@@ -4795,7 +4776,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  PROCESS BOX ICON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pbox-ico {
   width: 110px;
@@ -4830,7 +4811,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  STEP PROCESS BAR
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .processbar {
   counter-reset: step;
@@ -4893,7 +4874,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  PROCESS BUTTON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .process-btn {
   text-align: center;
@@ -4905,8 +4886,8 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    10. VIDEO
-    =========================================================================== */
+  10. VIDEO
+  =========================================================================== */
 
 #video-1.bg_color {
   padding-top: 60px;
@@ -4921,7 +4902,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  VIDEO TEXT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .video-1-txt h3 {
   margin-bottom: 15px;
@@ -4944,7 +4925,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  VIDEO LINK
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #video-1 .video-preview img,
 #video-2 .video-preview img,
@@ -4962,8 +4943,8 @@ h5.sm-title {
 
 
 /* ==========================================================================
-    11. STATISTIC
-    =========================================================================== */
+  11. STATISTIC
+  =========================================================================== */
 
 #statistic-1 .statistic-block {
   background-color: #f8f8fb;
@@ -4983,7 +4964,7 @@ h5.sm-title {
 
 /*------------------------------------------*/
 /*  STATISTIC BLOCK
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 h2.statistic-number {
   line-height: 1;
@@ -5010,8 +4991,8 @@ h2.statistic-number {
 
 
 /* ==========================================================================
-    12. TESTIMONIALS
-    =========================================================================== */
+  12. TESTIMONIALS
+  =========================================================================== */
 
 #reviews-1.aliceblue_shape,
 #reviews-1.whitesmoke_shape,
@@ -5057,7 +5038,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  TESTIMONIALS CAROUSEL
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .review-1,
 .review-2 {
@@ -5103,7 +5084,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  Testimonial Message Text
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .reviews-section h5.h5-sm {
   margin-bottom: 10px;
@@ -5145,7 +5126,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  Testimonials Rating
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .app-rating {
   margin-bottom: 15px;
@@ -5172,7 +5153,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  Testimonials Download Button
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .reviews-download-btn {
   text-align: center;
@@ -5190,7 +5171,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  Carousel Dots
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .reviews-section button {
   background-color: transparent;
@@ -5211,12 +5192,12 @@ h2.statistic-number {
 
 
 /* ==========================================================================
-    13. PRICING
-    =========================================================================== */
+  13. PRICING
+  =========================================================================== */
 
 /*------------------------------------------*/
 /*  Price Plan
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pricing-plan {
   padding: 50px 40px 45px;
@@ -5331,7 +5312,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  Pricing Hightlight Badge
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .badge-wrapper {
   position: absolute;
@@ -5358,7 +5339,7 @@ h2.statistic-number {
 
 /*------------------------------------------*/
 /*  Pricing Table Body
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pricing-description {
   padding: 40px 0 45px;
@@ -5382,7 +5363,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Pricing Table Button
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pricing-table .btn {
   margin-top: 25px;
@@ -5394,7 +5375,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  PRICING NOTICE TEXT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .pricing-notice {
   text-align: center;
@@ -5417,12 +5398,12 @@ ul.features li p {
 
 
 /* ==========================================================================
-    14. TEAM
-    =========================================================================== */
+  14. TEAM
+  =========================================================================== */
 
 /*------------------------------------------*/
 /*    TEAM MEMBER
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .team-member {
   text-align: center;
@@ -5431,7 +5412,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*    TEAM MEMBER PHOTO
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .team-member-photo {
   text-align: center;
@@ -5447,7 +5428,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*    TEAM MEMBER TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .team-member-data h5 {
   line-height: 1;
@@ -5465,8 +5446,8 @@ ul.features li p {
 
 
 /* ==========================================================================
-    15. BRANDS
-    =========================================================================== */
+  15. BRANDS
+  =========================================================================== */
 
 #brands-1 {
   padding-top: 50px;
@@ -5490,7 +5471,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  BRANDS LOGO HOLDER
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #brands-1 .brand-logo {
   padding: 0 22px;
@@ -5529,8 +5510,8 @@ ul.features li p {
 
 
 /* ===================================================================================
-    16.  MORE APPS
-    =================================================================================== */
+  16.  MORE APPS
+  =================================================================================== */
 
 .abox-1-wrapper {
   padding-left: 40px;
@@ -5539,7 +5520,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  APP BOX
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .abox-1 {
   position: relative;
@@ -5571,7 +5552,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  APP LOGO
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .abox-2-img {
   position: relative;
@@ -5595,7 +5576,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  APP TEXT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .abox-1-txt {
   padding-left: 10px;
@@ -5603,7 +5584,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  APP BOX TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .abox-1-txt h5 {
   line-height: 1;
@@ -5647,7 +5628,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  App Version
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .abox-1 .app-version {
   position: absolute;
@@ -5682,7 +5663,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  App Rating
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .app-rating {
   color: #998da0;
@@ -5712,8 +5693,8 @@ ul.features li p {
 
 
 /* ==========================================================================
-    17. FAQs
-    =========================================================================== */
+  17. FAQs
+  =========================================================================== */
 
 #faqs-1 {
   padding-top: 75px;
@@ -5730,7 +5711,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  FAQs TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #faqs-2 .question h5 {
   margin-bottom: 15px;
@@ -5738,7 +5719,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  FAQS ACCORDION
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #faqs-1 .card-header {
   padding: 25px 0;
@@ -5772,7 +5753,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Question
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #accordion .card {
   background-color: transparent;
@@ -5799,7 +5780,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Answer
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #accordion .card-body {
   padding: 0 0 15px 0;
@@ -5807,7 +5788,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  MORE QUESTIONS BUTTON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .more-questions a {
   text-decoration: underline;
@@ -5817,8 +5798,8 @@ ul.features li p {
 
 
 /* ==========================================================================
-    18. DOWNLOAD
-    =========================================================================== */
+  18. DOWNLOAD
+  =========================================================================== */
 
 .downloads-2-wrapper {
   padding: 50px 40px;
@@ -5848,7 +5829,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  DOWNLOAD TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .d2-txt h4 {
   padding-top: 10px;
@@ -5890,7 +5871,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  DOWNLOAD LOGO
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .download-2-logo {
   float: left;
@@ -5907,8 +5888,8 @@ ul.features li p {
 
 
 /* ==========================================================================
-    19. NEWSLETTER
-    =========================================================================== */
+  19. NEWSLETTER
+  =========================================================================== */
 
 #newsletter-1 .container {
   padding-left: 0;
@@ -5936,7 +5917,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  NEWSLETTER TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-txt h4,
 .newsletter-txt h3 {
@@ -5945,7 +5926,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  NEWSLETTER FORM
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-section .newsletter-form {
   margin-top: 50px;
@@ -5953,7 +5934,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*   Newsletter Form Input
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-section .form-control {
   height: 55px;
@@ -5980,7 +5961,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Newsletter Form Input Focus
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-section .form-control:focus {
   outline: 0;
@@ -5990,7 +5971,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Newsletter Form Input Placeholder
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-section .form-control::-moz-placeholder {
   color: #ccc;
@@ -6006,7 +5987,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Newsletter Form Button
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-section .btn {
   display: block;
@@ -6016,7 +5997,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  Newsletter Form Notification
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .newsletter-section .form-notification {
   color: #e03a3e;
@@ -6040,8 +6021,8 @@ ul.features li p {
 
 
 /* ==========================================================================
-    20. BLOG
-    =========================================================================== */
+  20. BLOG
+  =========================================================================== */
 
 .blog-post-img {
   -webkit-border-radius: 8px 8px 0 0;
@@ -6064,7 +6045,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  BLOG TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .blog-post-txt h5 {
   line-height: 1.4;
@@ -6081,7 +6062,7 @@ ul.features li p {
 
 /*------------------------------------------*/
 /*  BLOG POST META
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .post-meta {
   margin-top: 30px;
@@ -6115,8 +6096,8 @@ ul.features li p {
 
 
 /* ==========================================================================
-    21. BLOG LISTING
-    =========================================================================== */
+  21. BLOG LISTING
+  =========================================================================== */
 
 .posts-wrapper {
   padding: 0 4%;
@@ -6135,7 +6116,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Featured Post Badge
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .featured-badge {
   z-index: 70;
@@ -6157,7 +6138,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  BLOG POST
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #blog-page .blog-post {
   background-color: #fff;
@@ -6185,12 +6166,12 @@ h5.posts-category {
 
 
 /* ==========================================================================
-    22. SINGLE BLOG POST
-    =========================================================================== */
+  22. SINGLE BLOG POST
+  =========================================================================== */
 
 /*------------------------------------------*/
 /*  SINGLE POST TITLE
-  /*-----------------------------------------*/
+/*-----------------------------------------*/
 
 .single-post-title {
   padding: 0 4%;
@@ -6208,7 +6189,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  SINGLE POST AUTHOR
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #single-post .post-author-avatar {
   position: relative;
@@ -6230,7 +6211,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  AUTHOR AVATAR
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #single-post .post-author {
   position: relative;
@@ -6248,7 +6229,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  FOLLOW BUTTON
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #single-post .follow-author {
   position: relative;
@@ -6266,7 +6247,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  SINGLE POST TEXT
-  /*-----------------------------------------*/
+/*-----------------------------------------*/
 
 .single-post-txt {
   padding: 0 4%;
@@ -6283,7 +6264,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  BLOG POST INNER IMAGE
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .post-inner-img {
   text-align: center;
@@ -6305,7 +6286,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  POST TAGS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .post-share-links {
   padding: 0 4%;
@@ -6338,7 +6319,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  POST SHARE ICONS
-  /*-----------------------------------------*/
+/*-----------------------------------------*/
 .social-icons {
   display: flex;
   margin-top: 30px;
@@ -6358,15 +6339,14 @@ h5.posts-category {
 .social-icons>li>a>svg {
   height: 35px;
   width: 35px;
-  color: #d5dce6;
+  color: #bacce4;
   border-radius: 5px;
   transition: transform .2s;
 }
 
 .social-icons>li>a>svg:hover {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  transform: translateY(-1.5px);
+  /* transform: scale(1.1); */
   color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -6390,7 +6370,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  OTHER POSTS TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .other-posts {
   margin: 90px 4% 0;
@@ -6426,7 +6406,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  POST COMMENTS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .comments-wrapper {
   padding: 0 4%;
@@ -6467,7 +6447,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Comment Reply
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .btn-reply {
   margin-left: 3px;
@@ -6496,7 +6476,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  SINGLE POST COMMENT FORM
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .post-comments #leave-comment h5 {
   padding-bottom: 0;
@@ -6555,7 +6535,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Comment Form Button
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .comment-form .btn {
   margin-top: 15px;
@@ -6568,7 +6548,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Comment Form Message
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .comment-form-msg {
   width: 100% !important;
@@ -6598,8 +6578,8 @@ h5.posts-category {
 
 
 /* ==========================================================================
-    23. CONTACTS
-    =========================================================================== */
+  23. CONTACTS
+  =========================================================================== */
 
 #contacts-1 {
   padding-top: 60px;
@@ -6608,7 +6588,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  CONTACTS TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .contacts-1-txt h4 {
   line-height: 1.4;
@@ -6640,7 +6620,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  CONTACT FORM INPUT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .contact-form .form-control {
   height: 60px;
@@ -6658,8 +6638,8 @@ h5.posts-category {
 }
 
 /* .contact-us{
-    padding-left: 53px;
-  } */
+  padding-left: 53px;
+} */
 
 @media only screen and (max-width:600px) {
   .contact-us {
@@ -6686,7 +6666,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Contact Form Textarea
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .contact-form textarea {
   min-height: 150px;
@@ -6698,7 +6678,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Contact Form Placeholder
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .contact-form .form-control::-moz-placeholder {
   color: #998da0;
@@ -6715,7 +6695,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  Contact Form Input Focus
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .contact-form .form-control:focus,
 .contact-form .custom-select:focus {
@@ -6726,7 +6706,7 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*    Contact Form Message
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .contact-form-msg {
   width: 100% !important;
@@ -6752,15 +6732,15 @@ h5.posts-category {
 
 
 /* ==========================================================================
-    24. FOOTER
-    ========================================================================== */
+  24. FOOTER
+  ========================================================================== */
 .footer {
   padding-top: 50px;
   padding-bottom: 10px;
   background-color: #172337;
   /* background-color:#172b43; */
   /* background-image: url(../img/footer-bg3.png);
-    background-size: 100% 100%; */
+  background-size: 100% 100%; */
 }
 
 #footer-1 .footer-links,
@@ -6777,12 +6757,12 @@ h5.posts-category {
 
 /*------------------------------------------*/
 /*  FOOTER LOGO
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 img.footer-logo {
   width: 250px;
   /* max-width: inherit;
-    max-height: 40px; */
+  max-height: 40px; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -6798,7 +6778,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  FOOTER TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer h6,
 .footer h5.h5-xs,
@@ -6844,7 +6824,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  FOOTER LINKS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer-links li {
   width: auto !important;
@@ -6877,7 +6857,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  FOOTER SOCIAL LINKS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 #footer-1 .foo-facebook:hover {
   color: #3b5998;
@@ -6933,7 +6913,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  FOOTER NEWSLETTER FORM
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer-form .form-control {
   height: 48px;
@@ -6981,7 +6961,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  Newsletter Form Input Focus
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer-form .form-control:focus {
   border: 1px solid #ccc;
@@ -6992,7 +6972,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  Newsletter Form Button
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer-form .btn {
   height: 48px;
@@ -7023,7 +7003,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  Footer Form Notification
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer-form .form-notification {
   color: #e03a3e;
@@ -7036,7 +7016,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  BOTTOM FOOTER
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .bottom-footer {
   border-top: 1px dotted #ddd;
@@ -7047,7 +7027,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  BOTTOM FOOTER LINKS
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .bottom-footer-list li {
   display: inline-block !important;
@@ -7076,7 +7056,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  FOOTER COPYRIGHT
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .footer-copyright p {
   margin-bottom: 0;
@@ -7117,8 +7097,8 @@ img.footer-logo {
 
 
 /* ==========================================================================
-    25 INNER PAGE HERO
-    =========================================================================== */
+  25 INNER PAGE HERO
+  =========================================================================== */
 
 .page-hero-section {
   width: 100%;
@@ -7131,7 +7111,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  INNER PAGE HERO TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .page-hero-section h2 {
   margin-bottom: 15px;
@@ -7147,8 +7127,8 @@ img.footer-logo {
 
 
 /* ==========================================================================
-    26. INNER PAGE WRAPPER
-    =========================================================================== */
+  26. INNER PAGE WRAPPER
+  =========================================================================== */
 
 .inner-page-wrapper {
   margin-top: 88px;
@@ -7164,8 +7144,8 @@ img.footer-logo {
 
 
 /* ==========================================================================
-    27. TERMS PAGE
-    =========================================================================== */
+  27. TERMS PAGE
+  =========================================================================== */
 
 .terms-title {
   padding-bottom: 60px;
@@ -7186,7 +7166,7 @@ img.footer-logo {
 
 /*------------------------------------------*/
 /*  TERMS PAGE TYPOGRAPHY
-  /*------------------------------------------*/
+/*------------------------------------------*/
 
 .terms-box {
   margin-bottom: 30px;
@@ -7204,8 +7184,8 @@ img.footer-logo {
 
 
 /* ==========================================================================
-    28. PAGE PAGINATION
-    =========================================================================== */
+  28. PAGE PAGINATION
+  =========================================================================== */
 
 .page-link {
   color: #998da0;
@@ -7265,8 +7245,8 @@ img.footer-logo {
 }
 
 /* ==========================================================================
-    29. SCROLL TO TOP
-    ========================================================================== */
+  29. SCROLL TO TOP
+  ========================================================================== */
 
 #scrollUp {
   display: none;

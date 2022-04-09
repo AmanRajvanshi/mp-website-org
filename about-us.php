@@ -203,8 +203,8 @@
                 </div>
                 <!-- Team Member Data -->
                 <div class="team-member-data">
-                  <h5 class="h5-sm">Kushagra Chaudhary</h5>
-                  <p>Sales & Marketing</p>
+                  <h5 class="h5-sm">Wasif Ali</h5>
+                  <p>Sales & Marketing Head</p>
                 </div>
               </div>
             </div>

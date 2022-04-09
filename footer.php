@@ -75,7 +75,7 @@
               <p class="p-md"><a href="customer-privacy-policy.php">Privacy Policy</a></p>
             </li>
             <li>
-              <p class="p-md"><a href="#">Site-Map</a></p>
+              <p class="p-md"><a href="sitemap.xml">Site-Map</a></p>
             </li>
             <li>
               <p class="p-md"><a href="customer-faq.php">FAQ's</a></p>
