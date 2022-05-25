@@ -5420,10 +5420,10 @@ ul.features li p {
 }
 
 .team-member-photo img {
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  -o-border-radius: 14px;
-  border-radius: 14px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
 /*------------------------------------------*/

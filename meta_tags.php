@@ -21,9 +21,9 @@
 <link href="css/responsive.css" rel="stylesheet">
 <link href="css/preloader.css" rel="stylesheet">
 <meta property="og:title" content="MarketPluss - Market in your Hands" />
-<meta property="og:description" content="Market Pluss, app exclusively with best deals & offers Dehradun." />
+<meta property="og:description" content="Market Pluss, app exclusively with best deals & offers Dehradun. Get the top restaurants/cafes/salons/spas/gyms/opticals stores/fashion/clothing/toys/gifts near you." />
 <meta property="og:image" content="logos/mp_og.png" />
 <meta property="og:type" content="website" />
 <meta property="twitter:title" content="MarketPluss - Market in your Hands" />
-<meta property="twitter:description" content="Market Pluss, app exclusively with best deals & offers Dehradun." />
+<meta property="twitter:description" content="Market Pluss, app exclusively with best deals & offers Dehradun. Get the top restaurants/cafes/salons/spas/gyms/opticals stores/fashion/clothing/toys/gifts near you." />
 <meta property="twitter:image" content="logos/mp_og.png" />
