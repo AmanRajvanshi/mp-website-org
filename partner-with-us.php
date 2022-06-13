@@ -1,3 +1,22 @@
+<?php
+session_start();
+require 'connection.php';
+$sqlcat = "SELECT id,category_name FROM categories where parent_id = '0'";
+$result = mysqli_query($conn, $sqlcat);
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $contact = $_POST['contact'];
+  $city = $_POST['city'];
+  $categorie = $_POST['categorie'];
+  $sql = "INSERT INTO partner_with_us (`name`, email, contact, `city`, `register_for`) VALUES ('$name', '$email', '$contact', '$city', '$categorie')";
+  if (mysqli_query($conn, $sql)) {
+    $_SESSION['success'] = "Your message has been sent successfully!";
+  } else {
+    $_SESSION['error'] = "Something went wrong!";
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -114,7 +133,7 @@
             <!-- END LEFT COLUMN -->
             <div class="col-md-7">
               <div class="form-holder">
-                <form name="contactform" class="contact-form">
+                <form name="contactform" method="POST" class="contact-form">
                   <div class="row">
                     <div id="input-name" class="col-md-6">
                       <h5>Your Name: </h5>
@@ -122,36 +141,51 @@
                     </div>
                     <div id="input-name" class="col-md-6">
                       <h5>Your Contact Number: </h5>
-                      <input type="number" name="name" class="form-control name" required placeholder="Your Number">
+                      <input type="number" name="contact" class="form-control name" required placeholder="Your Number">
                     </div>
                   </div>
                   <div class="row">
                     <div id="input-name" class="col-md-6">
                       <h5>Your Email: </h5>
-                      <input type="email" name="name" class="form-control name" required placeholder="Your Email">
+                      <input type="email" name="email" class="form-control name" required placeholder="Your Email">
                     </div>
                     <div id="input-name" class="col-md-6">
-                      <h5>City: </h5>
-                      <input type="text" name="name" class="form-control name" required placeholder="City">
+                      <h5>City: <span class="text-muted" style="font-size:15px">(Currently available in Dehradun Only!)</span></h5>
+                      <input type="text" name="city" class="form-control name" required placeholder="City" value="Dehradun" readonly>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12">
                       <div id="input-subject" class="col-md-12 input-subject" style="padding:0px;">
                         <h5>Register For: </h5>
-                        <select id="inlineFormCustomSelect1" name="Subject" class="custom-select subject">
+                        <select id="inlineFormCustomSelect1" name="categorie" class="custom-select subject main_select_partner_with_us">
                           <option>Register For...</option>
-                          <option>Registering/Authorising</option>
-                          <option>Using Application</option>
-                          <option>Troubleshooting</option>
-                          <option>Backup/Restore</option>
-                          <option>Other</option>
+                          <?php
+                          $i=1;
+                          while($row = mysqli_fetch_assoc($result)){?>
+                            <option value="<?php echo $row['id'];?>"><?php echo $row['category_name'];?></option>
+                          <?php
+                          $i++;
+                          }
+                          ?>
                         </select>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-12 mt-15 form-btn text-right">
-                    <button type="submit" class="btn btn-skyblue tra-skyblue-hover submit">Submit Request</button>
+                  <span class="text-success"><?php
+                                            if (isset($_SESSION['success'])) {
+                                              echo $_SESSION['success'];
+                                              unset($_SESSION['success']);
+                                            }
+                                            ?></span>
+                <span class="text-danger"><?php
+                                          if (isset($_SESSION['error'])) {
+                                            echo $_SESSION['error'];
+                                            unset($_SESSION['error']);
+                                          }
+                                          ?></span>
+                    <button type="submit" name="submit" class="btn btn-skyblue tra-skyblue-hover submit">Submit Request</button>
                   </div>
                   <div class="col-md-12 contact-form-msg">
                     <span class="loading"></span>

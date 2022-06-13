@@ -1,3 +1,21 @@
+<?php
+session_start();
+require 'connection.php';
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $contact = $_POST['contact'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
+  $sql = "INSERT INTO contact_us (`name`, email, contact, `subject`, `message`) VALUES ('$name', '$email', '$contact', '$subject', '$message')";
+  if (mysqli_query($conn, $sql)) {
+    $_SESSION['success'] = "Your message has been sent successfully!";
+  } else {
+    $_SESSION['error'] = "Something went wrong!";
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +29,7 @@
       font-weight: 500;
     }
   </style>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -58,7 +77,7 @@
       <div class="row">
         <div class="col-md-7" style="padding-right:30px;">
           <div class="form-holder">
-            <form name="contactform" class="contact-form">
+            <form name="contactform" class="contact-form" method="POST" action="">
               <div class="row">
                 <div id="input-name" class="col-md-6">
                   <h5>Your Name: </h5>
@@ -66,17 +85,17 @@
                 </div>
                 <div id="input-name" class="col-md-6">
                   <h5>Your Contact Number: </h5>
-                  <input type="number" name="name" class="form-control name" required placeholder="Your Number">
+                  <input type="number" name="contact" class="form-control name" required placeholder="Your Number">
                 </div>
               </div>
               <div class="row">
                 <div id="input-name" class="col-md-6">
                   <h5>Your Email: </h5>
-                  <input type="email" name="name" class="form-control name" required placeholder="Your Email">
+                  <input type="email" name="email" class="form-control name" required placeholder="Your Email">
                 </div>
                 <div id="input-name" class="col-md-6">
                   <h5>Subject: </h5>
-                  <input type="text" name="name" class="form-control name" required placeholder="Subject">
+                  <input type="text" name="subject" class="form-control name" required placeholder="Subject">
                 </div>
               </div>
               <div class="row">
@@ -86,7 +105,20 @@
                 </div>
               </div>
               <div class="col-md-12 mt-15 form-btn text-right">
-                <button type="submit" class="btn btn-skyblue tra-skyblue-hover submit">Submit Request</button>
+                <span class="text-success"><?php
+                                            if (isset($_SESSION['success'])) {
+                                              echo $_SESSION['success'];
+                                              unset($_SESSION['success']);
+                                            }
+                                            ?></span>
+                <span class="text-danger"><?php
+                                          if (isset($_SESSION['error'])) {
+                                            echo $_SESSION['error'];
+                                            unset($_SESSION['error']);
+                                          }
+                                          ?></span>
+                <button type="submit" name="submit" class="btn btn-skyblue tra-skyblue-hover submit">Submit Request</button>
+
               </div>
               <div class="col-md-12 contact-form-msg">
                 <span class="loading"></span>
@@ -150,6 +182,7 @@
   <script src="js/preloader.js"></script>
   <!-- Custom Script -->
   <script src="js/custom.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>

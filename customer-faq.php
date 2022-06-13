@@ -218,7 +218,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="more-questions text-center mt-40 mb-40">
-        <h5 class="h5-sm"><span class="flaticon-check"></span> Have more questions? <a href="contacts.html" class="skyblue-color">Ask your question here</a> </h5>
+        <h5 class="h5-sm"><span class="flaticon-check"></span> Have more questions? <a href="contact-us.php" class="skyblue-color">Ask your question here</a> </h5>
       </div>
     </div>
   </div><!-- FOOTER-2    ============================================= --><?php include 'footer.php'; ?>

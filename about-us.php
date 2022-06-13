@@ -229,7 +229,7 @@
               <div class="team-member wow fadeInUp" data-wow-delay="0.8s">
                 <!-- Team Member Photo -->
                 <div class="team-member-photo pc-10">
-                  <img class="img-fluid img-id" src="akshay.jpg" alt="team-member-photo">
+                  <img class="img-fluid img-id" src="img/id/akshay.png" alt="team-member-photo">
                 </div>
                 <!-- Team Member Data -->
                 <div class="team-member-data">
@@ -264,11 +264,24 @@
                 <!-- Team Member Data -->
                 <div class="team-member-data">
                   <h5 class="h5-sm">Aman Rajvanshi</h5>
-                  <p>Web Designer</p>
+                  <p>Web Designer & Developer</p>
                 </div>
               </div>
             </div>
             <!-- END TEAM MEMBER #6 -->
+            <!-- TEAM MEMBER #11 -->
+            <div class="col-sm-6 col-lg-3">
+              <div class="team-member wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-member-photo pc-10">
+                  <img class="img-fluid img-id" src="img/id/kartik.png" alt="team-member-photo">
+                </div>
+                <div class="team-member-data">
+                  <h5 class="h5-sm">Kartik Sharma</h5>
+                  <p>Jr. Web Designer & Developer</p>
+                </div>
+              </div>
+            </div>
+            <!-- END TEAM MEMBER #11 -->
             <!-- TEAM MEMBER #7 -->
             <div class="col-sm-6 col-lg-3">
               <div class="team-member wow fadeInUp" data-wow-delay="0.6s">
@@ -304,7 +317,7 @@
               <div class="team-member wow fadeInUp" data-wow-delay="0.6s">
                 <!-- Team Member Photo -->
                 <div class="team-member-photo pc-10">
-                  <img class="img-fluid img-id" src="wasif.jpg" alt="team-member-photo">
+                  <img class="img-fluid img-id" src="img/id/shalini.png" alt="team-member-photo">
                 </div>
                 <!-- Team Member Data -->
                 <div class="team-member-data">
@@ -319,12 +332,12 @@
               <div class="team-member wow fadeInUp" data-wow-delay="0.4s">
                 <!-- Team Member Photo -->
                 <div class="team-member-photo pc-10">
-                  <img class="img-fluid img-id" src="img/id/aman.png" alt="team-member-photo">
+                  <img class="img-fluid img-id" src="img/id/rohit.png" alt="team-member-photo">
                 </div>
                 <!-- Team Member Data -->
                 <div class="team-member-data">
                   <h5 class="h5-sm">Rohit Chauhan</h5>
-                  <p>Tele-Sales Manager</p>
+                  <p>Operation & Marketing Manager</p>
                 </div>
               </div>
             </div>
